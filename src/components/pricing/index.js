@@ -10,10 +10,10 @@ export class Pricing extends Component {
     desc: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     ],
-    linkTo: ["http://sales.com/b", "http://sales.com/m", "http://sales.com/s"],
-    delay: [500, 0, 500]
+    linkTo: ["http://google.com/", "http://google.com/", "http://google.com/"],
+    delay: [500, 0, 500],
   };
 
   showBoxes = () =>

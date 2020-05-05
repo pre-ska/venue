@@ -17,10 +17,11 @@ const VenueInfo = () => {
                   <div
                     className="vn_icon"
                     style={{
-                      background: `url(${icon_calendar})`
-                    }}></div>
+                      background: `url(${icon_calendar})`,
+                    }}
+                  ></div>
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">7 August 2017 @10:00 pm</div>
+                  <div className="vn_desc">5 August 2020 @08:00 pm</div>
                 </div>
               </div>
             </div>
@@ -33,10 +34,13 @@ const VenueInfo = () => {
                   <div
                     className="vn_icon"
                     style={{
-                      background: `url(${icon_location})`
-                    }}></div>
+                      background: `url(${icon_location})`,
+                    }}
+                  ></div>
                   <div className="vn_title">Event Location</div>
-                  <div className="vn_desc">345 Spear Street, Oakland, CA</div>
+                  <div className="vn_desc">
+                    Papaya Club, Zrce Beach, Novalja
+                  </div>
                 </div>
               </div>
             </div>

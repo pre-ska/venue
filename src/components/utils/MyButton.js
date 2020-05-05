@@ -11,8 +11,9 @@ const MyButton = ({ text, bck, link, color }) => {
       size="small"
       style={{
         background: bck,
-        color
-      }}>
+        color,
+      }}
+    >
       <img src={TicketIcon} className="iconImage" alt="icon_button" />
       {text}
     </Button>
